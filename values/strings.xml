@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">YouApp</string>
+    <string name="login">Login</string>
+    <string name="back">Back</string>
+    <string name="get_otp_">Login</string>
+    <string name="no_account_">No account? Register here</string>
+    <string name="enter_username_hint">Enter Username</string>
+    <string name="enter_password_hint">Enter Password</string>
+    <string name="register">Register</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="create_user">Create Username</string>
+    <string name="create_pass">Create Password</string>
+    <string name="confirm_pas">Confirm Password</string>
+    <string name="get_otp">Register</string>
+    <string name="have_an_acc">Have an account?Login here</string>
+    <string name="show_password">Show Password</string>
+    <string name="hide_password">Hide Password</string>
+    <string name="johndoe123_">johndoe123,</string>
+    <string name="about">About</string>
+    <string name="add_in_your_">Add in your your to help others know you\nbetter</string>
+    <string name="interest">Interest</string>
+    <string name="add_in_your">Add in your interest to find a better match</string>
+    <string name="add_image">Add Image</string>
+    <string name="display_nam">Display name:</string>
+    <string name="gender">Gender:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="horoscope">Horoscope:</string>
+    <string name="zodiac">Zodiac:</string>
+    <string name="height">Height:</string>
+    <string name="weight">Weight:</string>
+    <string name="save_update">Save & Update</string>
+    <string name="select_gender">select gender:</string>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

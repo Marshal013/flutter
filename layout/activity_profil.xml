@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity"
+    android:background="@drawable/ic_launcher_background1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="85dp"
+        android:text="@string/back"
+        android:textAppearance="@style/back" />
+
+    <ImageView
+        android:src="@drawable/ic_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="81dp" />
+
+    <View
+        android:id="@+id/group_10000"
+        android:layout_width="69dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="81dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/group_10001"
+        android:layout_width="359dp"
+        android:layout_height="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="126dp"
+        android:background="@drawable/rectangle_5">
+
+
+        <TextView
+            android:id="@+id/johndoe123_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="153dp"
+            android:gravity="top"
+            android:text="@string/johndoe123_"
+            android:textAppearance="@style/johndoe123_" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame_10000"
+        android:layout_width="359dp"
+        android:layout_height="247dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp">
+
+        <View
+            android:id="@+id/group_10002"
+            android:layout_width="359dp"
+            android:layout_height="120dp"
+            android:background="@drawable/rectangle_5"/>
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="27dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="13dp"
+            android:text="@string/about"
+            android:textAppearance="@style/about"
+            android:gravity="top" />
+
+        <ImageView
+            android:id="@+id/vuesax_line_2"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/edit_square"/>
+
+        <TextView
+            android:id="@+id/add_in_your"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="73dp"
+            android:gravity="top"
+            android:text="@string/add_in_your_"
+            android:textAppearance="@style/add_in_your" />
+
+        <View
+            android:id="@+id/group_10003"
+            android:layout_width="359dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="126dp"
+            android:background="@drawable/rectangle_5" />
+
+        <TextView
+            android:id="@+id/interest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="137dp"
+            android:gravity="top"
+            android:text="@string/interest"
+            android:textAppearance="@style/interest" />
+
+        <ImageView
+            android:id="@+id/vuesax_line_3"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="329dp"
+            android:layout_marginTop="137dp"
+            android:src="@drawable/edit_square" />
+
+        <TextView
+            android:id="@+id/add_in_your_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="209dp"
+            android:gravity="top"
+            android:text="@string/add_in_your"
+            android:textAppearance="@style/add_in_your" />
+    </RelativeLayout>
+</RelativeLayout>

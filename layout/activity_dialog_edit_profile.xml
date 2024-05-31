@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/ic_launcher_background1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_alignParentLeft="true"
+            android:hint="@string/about"
+            android:textAppearance="@style/register" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Save Update"
+            android:layout_alignParentRight="true"
+            android:textAppearance="@style/save_update"
+            android:background="@drawable/button_background"/>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/border_box_with_plus">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/add_image"
+            android:textAppearance="@style/save_update" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label_display_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/display_nam"
+            android:textAppearance="@style/display_name" />
+
+        <EditText
+            android:id="@+id/displayName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/rectangle_5"
+            android:hint="Enter Name"
+            android:minHeight="29dp"
+            android:textAppearance="@style/enter_name" />
+
+        <TextView
+            android:id="@+id/label_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/gender"
+            android:textAppearance="@style/display_name" />
+
+        <Spinner
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:minHeight="48dp"
+            android:background="@drawable/rectangle_5"
+            android:entries="@array/gender_options"
+            android:prompt="@string/select_gender"
+            android:textAppearance="@style/enter_name"/>
+
+        <TextView
+            android:id="@+id/label_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/birthday"
+            android:textAppearance="@style/display_name" />
+
+        <EditText
+            android:id="@+id/birthday"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:minHeight="48dp"
+            android:background="@drawable/rectangle_5"
+            android:hint="DDMMYYYY"
+            android:textAppearance="@style/enter_name"/>
+
+        <TextView
+            android:id="@+id/label_horoscope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/horoscope"
+            android:textAppearance="@style/display_name" />
+
+        <EditText
+            android:id="@+id/horoscope"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:minHeight="48dp"
+            android:background="@drawable/rectangle_5"
+            android:hint="--"
+            android:textAppearance="@style/enter_name"/>
+
+        <TextView
+            android:id="@+id/label_zodiac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/zodiac"
+            android:textAppearance="@style/display_name" />
+
+        <EditText
+            android:id="@+id/zodiac"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:minHeight="48dp"
+            android:background="@drawable/rectangle_5"
+            android:hint="--"
+            android:textAppearance="@style/enter_name"/>
+
+        <TextView
+            android:id="@+id/label_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/height"
+            android:textAppearance="@style/display_name" />
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:minHeight="48dp"
+            android:background="@drawable/rectangle_5"
+            android:hint="Add Height"
+            android:textAppearance="@style/enter_name"/>
+
+        <TextView
+            android:id="@+id/label_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/weight"
+            android:textAppearance="@style/display_name" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:minHeight="48dp"
+            android:background="@drawable/rectangle_5"
+            android:hint="Add Weight"
+            android:textAppearance="@style/enter_name"/>
+    </LinearLayout>
+</LinearLayout>

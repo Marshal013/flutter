@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    tools:context=".RegisterActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/button_background"
+        android:text="@string/back"
+        android:textAppearance="@style/back" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="77dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="158dp"
+        android:text="@string/register"
+        android:textAppearance="@style/register"
+        android:gravity="top" />
+
+    <EditText
+        android:id="@+id/enter_email"
+        android:layout_width="327dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/rectangle_5" />
+
+    <TextView
+        android:id="@+id/enter_email_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="229dp"
+        android:text="@string/enter_email"
+        android:textAppearance="@style/enter_passw"
+        android:gravity="top" />
+
+    <EditText
+        android:id="@+id/create_user"
+        android:layout_width="327dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="274dp"
+        android:background="@drawable/rectangle_5" />
+
+    <TextView
+        android:id="@+id/create_user_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="291dp"
+        android:text="@string/create_user"
+        android:textAppearance="@style/create_user"
+        android:gravity="top" />
+
+    <EditText
+        android:id="@+id/create_pass"
+        android:layout_width="327dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="336dp"
+        android:background="@drawable/rectangle_5" />
+
+    <ImageView
+        android:id="@+id/show_password_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignTop="@id/create_pass"
+        android:layout_marginLeft="-36dp"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@id/create_pass"
+        android:contentDescription="@string/show_password"
+        android:src="@drawable/ic_eye_closed" />
+
+    <TextView
+        android:id="@+id/create_pass_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="353dp"
+        android:text="@string/create_pass"
+        android:textAppearance="@style/enter_passw"
+        android:gravity="top" />
+
+    <EditText
+        android:id="@+id/confirm_pas"
+        android:layout_width="327dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="402dp"
+        android:background="@drawable/rectangle_5" />
+
+    <ImageView
+        android:id="@+id/show_password_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignTop="@id/create_pass"
+        android:layout_marginLeft="-36dp"
+        android:layout_marginTop="81dp"
+        android:layout_toRightOf="@id/create_pass"
+        android:contentDescription="@string/show_password"
+        android:src="@drawable/ic_eye_closed" />
+
+    <TextView
+        android:id="@+id/confirm_pas_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="419dp"
+        android:text="@string/confirm_pas"
+        android:textAppearance="@style/confirm_pas"
+        android:gravity="top" />
+
+
+    <Button
+        android:id="@+id/component_2"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="485dp"
+        android:background="@drawable/button_gradient"
+        android:alpha="0.3"
+        android:text="@string/get_otp"
+        android:textAppearance="@style/get_otp_"
+        android:gravity="center_horizontal|top" />
+
+    <Button
+        android:id="@+id/have_an_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="545dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/have_an_acc"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:background="@drawable/button_background"
+    />
+</RelativeLayout>
